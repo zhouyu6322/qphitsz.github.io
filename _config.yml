@@ -1,0 +1,95 @@
+# Site settings
+title: 哈工大深圳量子光子学课题组
+email: zhouyu2022@hit.edu.cn
+description: Academic webpage of Dr. Yu Zhou
+baseurl: ""
+url: ""
+
+# Google analytics ID: Uncomment and your own, if you like
+# google_analytics: XX
+# google_analytics_4: XXX
+# google_tag_manager: XXX
+
+# Footer info
+affiliation: >
+  量子光子学课题组<br/>
+   <a href="http://micro-nanophotonics.hitsz.edu.cn/index.htm" target="_blank"><i class="fa fa-envelope fa-1x"></i> 微纳光子学团队</a> <br/>
+  哈尔滨工业大学（深圳）
+
+location: >
+  哈尔滨工业大学（深圳）理学院<br/>
+  南山区平山二路<br/>
+  中国, 深圳 518071
+
+contact: >
+    <a href="mailto:zhouyu2022@hit.edu.cn" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yu via email</a> <br/>
+   
+
+# Pages shown in navbar
+nav_pages:
+  - name: about
+  - name: publications
+  - name: research
+  - name: team
+  - name: teaching
+  - name: opening
+
+include:
+  - .htaccess
+  - _pages
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+
+plugins: ['jekyll/scholar']
+
+scholar:
+
+  last_name: Doe
+  first_name: [John]
+
+  style: citesty
+  locale: en
+
+  source: /assets/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  sort_by: year, month
+  order: descending
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+  bibliography_list_attributes:
+    reversed: "reversed"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_boostrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile
