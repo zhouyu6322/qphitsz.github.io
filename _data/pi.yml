@@ -1,0 +1,21 @@
+- name: Dr. Yu Zhou
+  photo: zhou1.jpg
+  info: Professor, Harbin Institute of Technology(shenzhen)<br/>
+        zhouyu2022@hit.edu.cn
+  email: zhouyu2022@hit.edu.cn
+  scholar: https://scholar.google.com/citations?hl=en&user=LckaWiIAAAAJ&view_op=list_works&sortby=pubdate/
+  cv: papers/feynman06.pdf
+  # Change the number below to the number of "educations" you have (up to 6)
+  number_educ: 2
+  education1: "(2019) Ph.D. Physics, Nanyang Technological University，Singapore"
+  education2: "(2014) B.S. Physics, Xi'an Jiaotong University, China"
+  # education3: 
+  # education4: 
+  # education5: 
+  # education6: 
+  education1short: 2019 Ph.D. Physics, NTU, SG
+  education2short: 2014 B.S. Physics, XJTU, China
+  # education3short: 
+  # education4short: 
+  # education5short: 
+  # education6short: 
