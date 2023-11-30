@@ -1,9 +1,9 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: 哈工大深圳量子光子学课题组
+email: zhouyu2022@hit.edu.cn
+description: Academic webpage of Dr. Yu Zhou.
 baseurl: ""
-url: ""
+url: "https://zhouyu6322.github.io"
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
@@ -12,28 +12,27 @@ url: ""
 
 # Footer info
 affiliation: >
-    Richard Feynman<br/>
-    Professor of Physics<br/>
-    California Institute of Technology
+  量子光子学课题组<br/>
+   <a href="http://micro-nanophotonics.hitsz.edu.cn/index.htm" target="_blank"><i class="fa fa-envelope fa-1x"></i> 微纳光子学团队</a> <br/>
+  哈尔滨工业大学（深圳）
 
 location: >
-  California Institute of Technology<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+  哈尔滨工业大学（深圳）理学院<br/>
+  南山区平山二路<br/>
+  中国, 深圳 518071
 
 contact: >
-    <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
-    <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+    <a href="mailto:zhouyu2022@hit.edu.cn" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yu via email</a> <br/>
+   
 
 # Pages shown in navbar
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
   - name: research
-  - name: software
   - name: team
   - name: teaching
+  - name: opening
 
 include:
   - .htaccess
